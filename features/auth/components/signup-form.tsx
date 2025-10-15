@@ -70,7 +70,7 @@ export const SignUpForm = () => {
                         <div className="flex flex-col gap-4">
                            <Button
                               // variant={"outline"}
-                              className="w-full"
+                              className="w-full bg-neutral-950 hover:bg-neutral-800 transition-all"
                               type="button"
                               disabled={isPending}
                            >
